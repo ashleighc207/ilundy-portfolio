@@ -168,9 +168,9 @@ p {
 /* Footer Styles */
 footer {
   position: relative;
-  height: 700px;
+  min-height: 260px;
   margin: 0px -50px;
-  background: #000000;
+  background: #212121;
 }
 
 .footer-slant {
@@ -180,7 +180,7 @@ footer {
   width: 100%;
   margin: -150px 0px;
   z-index: -1;
-  background: #000000;
+  background: #212121;
   transform: skewY(8deg);
   transform-origin: 100%;
 }
