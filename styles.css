@@ -73,3 +73,32 @@ p {
   line-height: 85px;
   color: #424242;
 }
+
+/* Masonry Tile Styles */
+.project-tile-board {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.project {
+  flex: auto;
+}
+.project:nth-of-type(odd){
+  margin: 0px 20px 20px 0px;
+}
+
+.project-one-third {
+  width: 547px;
+  height: 468px;
+}
+
+.project-two-thirds {
+  width: 773px;
+  height: 468px;
+}
+
+.project-three-thirds {
+  width: 1340px;
+  height: 468px;
+}
