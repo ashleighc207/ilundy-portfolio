@@ -83,9 +83,16 @@ p {
 
 .project {
   flex: auto;
+  background: #C4C4C4;
 }
 .project:nth-of-type(odd){
-  margin: 0px 20px 20px 0px;
+  margin: 0px 20px 25px 0px;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
 .project-one-third {
