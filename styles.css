@@ -84,15 +84,21 @@ p {
 .project {
   flex: auto;
   background: #C4C4C4;
+  margin-bottom: 25px;
 }
-.project:nth-of-type(odd){
+.project:not(.project-three-thirds):nth-of-type(odd):not(:last-child){
   margin: 0px 20px 25px 0px;
+}
+
+.project-three-thirds + .project-two-thirds {
+  margin-right: 20px;
 }
 
 .project {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  padding: 70px 40px;
 }
 
 .project-one-third {
@@ -108,4 +114,52 @@ p {
 .project-three-thirds {
   width: 1340px;
   height: 468px;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.project-subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #424242;
+  opacity: 0;
+}
+
+.horizontal-rule {
+  border-bottom: 2px solid #000000;
+  width: 75px;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+
+.project:hover {
+  transition: all .3s ease-in;
+  color: #ffffff;
+  background: rgba(215, 50, 127, 0.7);
+}
+
+.project:hover .project-title {
+  color: #ffffff;
+}
+
+.project:hover .project-subtitle,
+.project:hover .horizontal-rule {
+  color: #ffffff;
+  opacity: 1;
+  transition: opacity .3s ease-in;
+}
+
+.project:hover .horizontal-rule {
+  border-bottom-color: #ffffff;
 }
