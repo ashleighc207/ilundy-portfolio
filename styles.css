@@ -3,6 +3,8 @@ body, html {
   padding: 0px;
   margin: 0px;
   height: 100%;
+  min-width: 1440px;
+  width: 100%;
 }
 
 body {
@@ -90,6 +92,10 @@ p {
   margin: 0px 20px 25px 0px;
 }
 
+.project-three-thirds {
+  margin-right: 0px;
+}
+
 .project-three-thirds + .project-two-thirds {
   margin-right: 20px;
 }
@@ -99,21 +105,23 @@ p {
   flex-direction: column;
   justify-content: flex-end;
   padding: 70px 40px;
+  box-sizing: content-box;
+  min-width: 150px;
 }
 
 .project-one-third {
-  width: 547px;
-  height: 468px;
+  width: 507px;
+  height: 398px;
 }
 
 .project-two-thirds {
-  width: 773px;
-  height: 468px;
+  width: 733px;
+  height: 398px;
 }
 
 .project-three-thirds {
-  width: 1340px;
-  height: 468px;
+  width: 1300px;
+  height: 398px;
 }
 
 .project-title {
