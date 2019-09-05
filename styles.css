@@ -129,8 +129,8 @@ p {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 18px;
   color: #424242;
   opacity: 0;
 }
@@ -162,4 +162,46 @@ p {
 
 .project:hover .horizontal-rule {
   border-bottom-color: #ffffff;
+}
+
+
+/* Footer Styles */
+footer {
+  position: relative;
+  height: 700px;
+  margin: 0px -50px;
+  background: #000000;
+}
+
+.footer-slant {
+  position: absolute;
+  top: 0px;
+  height: 400px;
+  width: 100%;
+  margin: -150px 0px;
+  z-index: -1;
+  background: #000000;
+  transform: skewY(8deg);
+  transform-origin: 100%;
+}
+
+.main-footer-container {
+  margin-top: 80px;
+}
+
+.footer-text {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer-horizontal-rule {
+  width: 90px;
+  margin: 15px auto 30px auto;
+  display: block;
+  border-bottom: 2px solid #FFFFFF;
 }
