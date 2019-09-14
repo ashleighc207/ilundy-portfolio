@@ -3,8 +3,7 @@ body, html {
   padding: 0px;
   margin: 0px;
   height: 100%;
-  min-width: 1440px;
-  width: 100%;
+  max-width: 1440px;
 }
 
 body {
@@ -31,6 +30,10 @@ p {
   color: #424242;
 }
 
+.logo-text:hover {
+  color: #D7327F;
+}
+
 .nav-link-item {
   list-style-type: none;
 }
@@ -54,9 +57,18 @@ p {
   text-decoration: none;
 }
 
-.nav-link-item .nav-link.active {
+.nav-link-item .nav-link  {
   padding-bottom: 8px;
-  border-bottom: 2px solid #424242;
+}
+
+.nav-link.active {
+  border-bottom: 2px solid #D7327F;
+}
+
+.nav-link:hover {
+  color: #D7327F;
+  border-bottom: 2px solid #D7327F;
+  transition: all 0.1s ease-in;
 }
 
 /* Jumbotron Styles */
@@ -110,17 +122,17 @@ p {
 }
 
 .project-one-third {
-  width: 507px;
+  width: 407px;
   height: 398px;
 }
 
 .project-two-thirds {
-  width: 733px;
+  width: 633px;
   height: 398px;
 }
 
 .project-three-thirds {
-  width: 1300px;
+  width: 1200px;
   height: 398px;
 }
 
@@ -140,7 +152,6 @@ p {
   font-size: 16px;
   line-height: 18px;
   color: #424242;
-  opacity: 0;
 }
 
 .horizontal-rule {
@@ -148,24 +159,18 @@ p {
   width: 75px;
   margin-top: 5px;
   margin-bottom: 30px;
-  opacity: 0;
 }
 
 .project:hover {
   transition: all .3s ease-in;
   color: #ffffff;
-  background: rgba(215, 50, 127, 0.7);
+  background: rgba(215, 50, 127, 0.8);
 }
 
-.project:hover .project-title {
-  color: #ffffff;
-}
-
+.project:hover .project-title,
 .project:hover .project-subtitle,
 .project:hover .horizontal-rule {
   color: #ffffff;
-  opacity: 1;
-  transition: opacity .3s ease-in;
 }
 
 .project:hover .horizontal-rule {
