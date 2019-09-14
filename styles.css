@@ -77,6 +77,7 @@ p {
   justify-content: center;
   align-items: center;
   padding: 250px 60px;
+  flex-direction: column;
 }
 
 .jumbotron .jumbotron-text {
@@ -217,4 +218,58 @@ footer {
   margin: 15px auto 30px auto;
   display: block;
   border-bottom: 2px solid #FFFFFF;
+}
+
+/* About Page Styles */
+.header-slant {
+  position: absolute;
+  top: -400px;
+  height: 1200px;
+  width: 100%;
+  left: -50px
+  margin: -150px 0px;
+  z-index: -1;
+  background: #212121;
+  transform: skewY(-12deg);
+  transform-origin: 100%;
+}
+
+.about-content {
+  height: 580px;
+  margin-top: 370px;
+}
+
+.white-text-variant .jumbotron-text,
+.white-text-variant .nav-link,
+.white-text-variant .logo-text {
+  color: #ffffff;
+}
+.white-text-variant .nav-link:hover,
+.white-text-variant .logo-text:hover {
+  color: #D7327F;
+}
+
+.jumbotron-quote-author {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 85px;
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.about-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: #424242;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+.about-text:not(:first-child){
+  margin-top: 65px !important;
 }
