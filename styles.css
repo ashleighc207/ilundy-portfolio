@@ -72,6 +72,14 @@ p {
 }
 
 /* Jumbotron Styles */
+.nav-link.text-white, .logo-text.text-white, .jumbotron .jumbotron-text.text-white {
+  color: #ffffff;
+}
+
+.nav-link.text-white:hover, .logo-text.text-white:hover {
+  color: #D7327F;
+}
+
 .jumbotron {
   display: flex;
   justify-content: center;
@@ -252,16 +260,6 @@ footer {
   margin-top: 370px;
 }
 
-.white-text-variant .jumbotron-text,
-.white-text-variant .nav-link,
-.white-text-variant .logo-text {
-  color: #ffffff;
-}
-.white-text-variant .nav-link:hover,
-.white-text-variant .logo-text:hover {
-  color: #D7327F;
-}
-
 .jumbotron-quote-author {
   font-family: 'Playfair Display', serif;
   font-style: normal;
@@ -290,7 +288,7 @@ footer {
 .body-slant {
   position: absolute;
   top: 390px;
-  height: 2530px;
+  height: 100%;
   width: 120%;
   margin: -150px 0px;
   z-index: -1;
