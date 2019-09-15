@@ -14,6 +14,12 @@ p {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
 /* Navigation Styles */
 .nav-header {
   display: flex;
