@@ -3,6 +3,6 @@ $('.nav-link').on('click', function(e){
   $(e.target).addClass('active');
 })
 
-if($('.header-slant')) {
-  $('body').addClass('white-text-variant')
-}
+// if($('.header-slant')) {
+//   $('body').addClass('white-text-variant')
+// }
