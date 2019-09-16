@@ -224,6 +224,11 @@ footer {
   background: #212121;
 }
 
+.footer-link:hover {
+  color: #D7327F;
+  text-decoration: underline;
+}
+
 .footer-slant {
   position: absolute;
   top: 0px;
