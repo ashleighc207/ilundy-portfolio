@@ -225,6 +225,44 @@ main {
   margin-bottom: -20px;
 }
 
+.blurb-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 35px;
+  color: #424242;
+  max-width: 770px;
+  margin: 0 auto;
+}
+
+.project-details-content {
+  margin: 0 auto;
+  max-width: 770px;
+}
+
+.project-details-content .project-subtitle {
+  font-style: normal;
+  margin-bottom: 20px;
+}
+
+.project-company, .project-role, .project-link {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: #424242;
+}
+
+.project-link {
+  text-decoration: underline;
+}
+
+.project-link:hover {
+  color: #D7327F;
+}
+
 /* Footer Styles */
 footer {
   position: relative;
