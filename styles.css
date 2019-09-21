@@ -26,6 +26,10 @@ main {
 }
 
 /* Navigation Styles */
+.mobile-header {
+  display: none;
+}
+
 .nav-header {
   display: flex;
   justify-content: space-between;
@@ -405,4 +409,127 @@ footer {
 
 .detail-project-wrapper ~ footer {
   min-height: 390px;
+}
+
+/* Mobile Styles */
+
+@media screen and (max-width: 600px){
+  .nav-header {
+    padding: 0px;
+    padding-top: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 30px;
+  }
+  .nav-link-list {
+    padding: 0px;
+  }
+  main {
+    width: 100%;
+    padding: 0px;
+    padding-top: 40px;
+  }
+  .jumbotron {
+    margin: 40px 0px;
+    padding: 0px;
+  }
+  .jumbotron .jumbotron-text {
+    padding-left: 30px;
+    font-size: 48px;
+    line-height: 70px;
+    padding-right: 30px;
+  }
+  .jumbotron-quote-author {
+    padding: 0px 30px;
+    width: auto;
+    font-size: 48px;
+    line-height: 70px;
+  }
+  .project-row {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .project {
+    margin: 0px;
+    width: 65%;
+    flex: none;
+    min-width: unset;
+    max-width: 100%;
+    margin-bottom: 25px;
+  }
+  .project-row .project:not(.project-three-thirds):first-child {
+    margin-right: 0px;
+  }
+  footer {
+    margin-bottom: 300px;
+  }
+  .main-footer-container {
+    padding: 0px 30px;
+  }
+  .about-content {
+    margin-top: 260px;
+    padding: 0px 30px;
+    margin-bottom: 90px;
+  }
+  .project-details-content {
+    padding: 0px 30px;
+  }
+  .project-detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .project-image-tile {
+    width: 85%;
+  }
+  .blurb-text {
+    padding: 0px 50px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .project-subtitle {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .detail-project-wrapper {
+    margin-top: 760px;
+  }
+  .project-title {
+    font-size: 48px;
+    line-height: 70px;
+  }
+  .project-contact-details {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .mobile-header {
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 0px;
+    background: #212121;
+    display: flex;
+    justify-content: space-between;
+  }
+  .mobile-header section:first-child {
+    padding-top: 10px;
+    padding-left: 30px;
+  }
+  .mobile-header section:last-child {
+    padding-top: 10px;
+    padding-right: 30px;
+  }
+  .mobile-header {
+    z-index: 30;
+    opacity: 0;
+    transition: opacity 0.3s ease-in, height 0.2s ease-in;
+  }
+
+  .mobile-header.nav-up {
+    height: 76px;
+    opacity: 1;
+  }
 }
