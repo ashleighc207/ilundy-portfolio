@@ -504,7 +504,6 @@ footer {
     line-height: 24px;
   }
   .mobile-header {
-    display: block;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -525,10 +524,12 @@ footer {
   .mobile-header {
     z-index: 30;
     opacity: 0;
-    transition: opacity 0.3s ease-in, height 0.2s ease-in;
+    transition: opacity 0.1s ease-in, height 0.1s ease-in, margin 0.5s ease-in;
   }
-
   .mobile-header.nav-up {
+    margin-top: -76px;
+  }
+  .mobile-header.nav-down {
     height: 76px;
     opacity: 1;
   }
