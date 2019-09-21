@@ -47,7 +47,7 @@ main {
 }
 
 .logo-text:hover {
-  color: #D7327F;
+  color: #E7008C;
 }
 
 .nav-link-item {
@@ -78,12 +78,12 @@ main {
 }
 
 .nav-link.active {
-  border-bottom: 2px solid #D7327F;
+  border-bottom: 2px solid #E7008C;
 }
 
 .nav-link:hover {
-  color: #D7327F;
-  border-bottom: 2px solid #D7327F;
+  color: #E7008C;
+  border-bottom: 2px solid #E7008C;
   transition: all 0.1s ease-in;
 }
 
@@ -93,7 +93,7 @@ main {
 }
 
 .nav-link.text-white:hover, .logo-text.text-white:hover {
-  color: #D7327F;
+  color: #E7008C;
 }
 
 .jumbotron {
@@ -190,7 +190,7 @@ main {
 .project:hover {
   transition: all .3s ease-in;
   color: #ffffff;
-  background: rgba(215, 50, 127, 0.8);
+  background: rgba(231, 0, 140, 0.8);
 }
 
 .project:hover .project-title,
@@ -264,11 +264,11 @@ main {
 }
 
 .project-link:hover {
-  color: #D7327F;
+  color: #E7008C;
 }
 
 .next-button {
-  background: #D7327F;
+  background: #E7008C;
   width: 260px;
   height: 100px;
   color: #ffffff;
@@ -301,7 +301,7 @@ footer {
 }
 
 .footer-link:hover {
-  color: #D7327F;
+  color: #E7008C;
   text-decoration: underline;
 }
 
