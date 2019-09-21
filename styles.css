@@ -26,7 +26,7 @@ main {
 }
 
 /* Navigation Styles */
-.mobile-header {
+.mobile-header.hide {
   display: none;
 }
 

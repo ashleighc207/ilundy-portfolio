@@ -3,7 +3,7 @@ $('.nav-link').on('click', function(e){
   $(e.target).addClass('active');
 })
 
-// Hide Header on on scroll down
+// Hide Header on on scroll down - taken from the internet, modified to support two navs
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
@@ -26,11 +26,13 @@ function hasScrolled() {
     if(Math.abs(lastScrollTop - st) <= delta)
         return;
 
-    if (st > lastScrollTop && st > navbarHeight){
-        $('.mobile-header').removeClass('nav-down').addClass('nav-up');
+    if(st < 156){
+      $('.mobile-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
+    } else if (st > lastScrollTop && st > navbarHeight){
+        $('.mobile-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
     } else {
         if(st + $(window).height() < $(document).height()) {
-            $('.mobile-header').removeClass('nav-up').addClass('nav-down');
+            $('.mobile-header').removeClass('nav-up').addClass('nav-down').removeClass('hide')
         }
     }
 
