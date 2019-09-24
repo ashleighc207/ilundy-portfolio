@@ -546,14 +546,14 @@ a[href^="mailto:"] {
     line-height: 25px;
   }
   .project-subtitle {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 30px;
   }
   .detail-project-wrapper {
     margin-top: 760px;
   }
   .project-title {
-    font-size: 48px;
+    font-size: 36px;
     line-height: 70px;
   }
   .project-contact-details {
@@ -592,5 +592,11 @@ a[href^="mailto:"] {
   .sticky-header.nav-down {
     height: 76px;
     opacity: 1;
+  }
+
+  .project:active {
+    transition: all .3s ease-in;
+    color: #ffffff;
+    background: rgba(231, 0, 140, 0.8);
   }
 }
