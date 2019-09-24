@@ -7,7 +7,7 @@ $('.nav-link').on('click', function(e){
 var didScroll;
 var lastScrollTop = 0;
 var delta = 5;
-var navbarHeight = $('.mobile-header').outerHeight();
+var navbarHeight = $('.sticky-header').outerHeight();
 
 $(window).scroll(function(event){
     didScroll = true;
@@ -27,12 +27,12 @@ function hasScrolled() {
         return;
 
     if(st < 156){
-      $('.mobile-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
+      $('.sticky-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
     } else if (st > lastScrollTop && st > navbarHeight){
-        $('.mobile-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
+        $('.sticky-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
     } else {
         if(st + $(window).height() < $(document).height()) {
-            $('.mobile-header').removeClass('nav-up').addClass('nav-down').removeClass('hide')
+            $('.sticky-header').removeClass('nav-up').addClass('nav-down').removeClass('hide')
         }
     }
 
