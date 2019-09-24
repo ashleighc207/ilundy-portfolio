@@ -478,6 +478,10 @@ a[href^="mailto:"] {
     align-items: flex-start;
     padding-left: 30px;
   }
+  .about-text {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
   .nav-link-list {
     padding: 0px;
   }
@@ -604,5 +608,18 @@ a[href^="mailto:"] {
   }
   .project-image-tile {
     margin: 68px auto;
+  }
+  .about-page .jumbotron .jumbotron-text, .about-page .jumbotron .jumbotron-quote-author {
+    font-size: 36px;
+  }
+  .about-page .jumbotron .jumbotron-text {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .about-page .project-tile-board {
+    margin-top: 420px;
+  }
+  .about-text {
+    font-size: 14px;
   }
 }
