@@ -300,6 +300,10 @@ footer {
   background: #212121;
 }
 
+a[href^="mailto:"] {
+  text-decoration: underline;
+}
+
 .footer-link:hover {
   color: #E7008C;
   text-decoration: underline;
