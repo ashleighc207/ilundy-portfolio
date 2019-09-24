@@ -115,6 +115,16 @@ main {
   color: #424242;
 }
 
+.about-page .jumbotron .jumbotron-text {
+  font-size: 48px;
+  line-height: 70px;
+}
+
+.about-page .jumbotron .jumbotron-quote-author {
+  font-size: 48px;
+  line-height: 70px;
+}
+
 /* Masonry Tile Styles */
 .project-tile-board {
   display: flex;
@@ -193,6 +203,10 @@ main {
   transition: all .3s ease-in;
   color: #ffffff;
   background: rgba(231, 0, 140, 0.8);
+}
+
+.no-hover .project:hover {
+  background: #C4C4C4;
 }
 
 .project:hover .project-title,
@@ -372,8 +386,8 @@ a[href^="mailto:"] {
 }
 
 .about-content {
-  height: 580px;
-  margin-top: 370px;
+  height: 440px;
+  margin-top: 360px;
 }
 
 .jumbotron-quote-author {
