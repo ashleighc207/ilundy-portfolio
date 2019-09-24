@@ -102,6 +102,8 @@ main {
   align-items: center;
   padding: 250px 60px;
   flex-direction: column;
+  max-width: 883px;
+  margin: 0 auto;
 }
 
 .jumbotron .jumbotron-text {
