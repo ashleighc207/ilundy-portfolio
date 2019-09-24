@@ -167,7 +167,7 @@ main {
   font-family: 'Playfair Display', serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 48px;
   line-height: 70px;
   color: #000000;
 }
@@ -176,8 +176,8 @@ main {
   font-family: 'Roboto', sans-serif;
   font-style: italic;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 18px;
+  font-size: 22px;
+  line-height: 40px;
   color: #424242;
 }
 
@@ -217,14 +217,14 @@ main {
 }
 
 .detail-project-wrapper {
-  margin-top: 1000px;
+  margin-top: 1045px;
 }
 
 .project-image-tile {
   height: 800px;
-  width: 100%;
+  width: calc(83.3% + 100px);
   background: #C4C4C4;
-  margin: 80px 0px;
+  margin: 80px auto;
 }
 
 .project-image-tile:last-child {
@@ -271,15 +271,15 @@ main {
 
 .next-button {
   background: #E7008C;
-  width: 260px;
-  height: 100px;
+  width: 200px;
+  height: 80px;
   color: #ffffff;
   margin: 0 auto;
   display: flex;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 26px;
+  font-size: 18px;
   line-height: 20px;
   text-align: center;
   letter-spacing: 0.15em;
