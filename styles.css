@@ -550,7 +550,10 @@ a[href^="mailto:"] {
     line-height: 30px;
   }
   .detail-project-wrapper {
-    margin-top: 760px;
+    margin-top: 350px;
+  }
+  .header-slant-gray {
+    height: 110vh;
   }
   .project-title {
     font-size: 36px;
@@ -598,5 +601,8 @@ a[href^="mailto:"] {
     transition: all .3s ease-in;
     color: #ffffff;
     background: rgba(231, 0, 140, 0.8);
+  }
+  .project-image-tile {
+    margin: 68px auto;
   }
 }
