@@ -32,9 +32,19 @@ function hasScrolled() {
         $('.sticky-header').removeClass('nav-down').addClass('nav-up').addClass('hide');
     } else {
         if(st + $(window).height() < $(document).height()) {
-            $('.sticky-header').removeClass('nav-up').addClass('nav-down').removeClass('hide')
+            $('.sticky-header').removeClass('nav-up').addClass('nav-down').removeClass('hide').addClass('transition');
         }
     }
 
     lastScrollTop = st;
 }
+
+$("a").click(function(e){
+    e.preventDefault();
+    if (this.href) {
+        var target = this.href;
+        setTimeout(function(){
+            window.location = target;
+        }, 750);
+    }
+});
