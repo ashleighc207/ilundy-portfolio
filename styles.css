@@ -63,12 +63,12 @@ main {
 }
 
 .nav-link-item .nav-link {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alice', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 16px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #424242;
   text-decoration: none;
 }
@@ -179,11 +179,11 @@ main {
   font-weight: bold;
   font-size: 48px;
   line-height: 70px;
-  color: #000000;
+  color: #424242;
 }
 
 .project-subtitle {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alice', serif;
   font-style: italic;
   font-weight: normal;
   font-size: 22px;
@@ -192,7 +192,7 @@ main {
 }
 
 .horizontal-rule {
-  border-bottom: 2px solid #000000;
+  border-bottom: 2px solid #424242;
   width: 75px;
   margin-top: 35px;
   margin-bottom: 50px;
@@ -235,9 +235,9 @@ main {
 }
 
 .project-image-tile {
-  height: 800px;
+  /*height: 800px;*/
   width: calc(83.3% + 100px);
-  background: #C4C4C4;
+  /*background: #C4C4C4;*/
   margin: 80px auto;
 }
 
@@ -246,7 +246,7 @@ main {
 }
 
 .blurb-text {
-  font-family: Roboto;
+  font-family: Alice;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -267,7 +267,7 @@ main {
 }
 
 .project-company, .project-role, .project-link {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Alice', serif;
     font-style: italic;
     font-weight: normal;
     font-size: 16px;
@@ -290,7 +290,7 @@ main {
   color: #ffffff;
   margin: 0 auto;
   display: flex;
-  font-family: Roboto;
+  font-family: Alice;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -342,7 +342,7 @@ a[href^="mailto:"] {
 }
 
 .footer-text {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Alice', serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -383,6 +383,7 @@ a[href^="mailto:"] {
   background: #C4C4C4;
   transform: skewY(-12deg);
   transform-origin: 100%;
+overflow: hidden;
 }
 
 .about-content {
@@ -401,7 +402,7 @@ a[href^="mailto:"] {
 }
 
 .about-text {
-  font-family: Roboto;
+  font-family: Alice;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
