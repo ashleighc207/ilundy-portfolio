@@ -232,7 +232,7 @@ main {
 }
 
 .detail-project-wrapper {
-  margin-top: 1045px;
+  margin-top: 735px;
 }
 
 .project-image-tile {
@@ -395,7 +395,9 @@ a[href^="mailto:"] {
   fill: #C4C4C4;
 }
 
-.slanted
+.slanted-overlay {
+  mix-blend-mode: multiply;
+}
 
 .about-content {
   height: 440px;
