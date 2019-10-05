@@ -10,22 +10,24 @@
 <title>iLundy</title>
 </head>
 <body>
-<section class="header-slant-gray">
-  <video width="150%" autoplay loop>
-    <source src="images/Medstar Report to Community/RTC-01.mp4" type="video/mp4">
-    Your browser does not support HTML5 video. </video>
-</section>
-<header class="nav-header">
-  <section>
-    <p class="logo-text"><a href="./index.html">iLundy</a></p>
-  </section>
-  <section>
-    <ul class="nav-link-list">
-      <li class="nav-link-item"><a href="./work.html" class="nav-link active">Work</a></li>
-      <li class="nav-link-item"><a href="./about.html" class="nav-link">About/Process</a></li>
-    </ul>
-  </section>
-</header>
+	    <svg class="slanted" viewbox="0 0 100 100" preserveAspectRatio="none">
+      <image xlink:href="./images/Medstar Report to Community/RTC-Hero.gif" x="0" y="0" width="100%" clip-path="url(#slant)" />
+      <clipPath id="slant">
+  <polygon class="shape" points="0,0 200,0 200,10, 0,40" />
+</clipPath>
+<polygon class="slanted-overlay" fill="#212121" points="0,0 200,0 200,10, 0,40"></polygon>			
+</svg>
+    <header class="nav-header">
+      <section>
+        <p class="logo-text text-white"><a href="./index.html">iLundy</a></p>
+      </section>
+      <section>
+        <ul class="nav-link-list">
+          <li class="nav-link-item"><a href="./work.html" class="nav-link text-white">Work</a></li>
+          <li class="nav-link-item"><a href="./about.html" class="nav-link text-white">About/Process</a></li>
+        </ul>
+      </section>
+    </header>
 <section class="sticky-header nav-down hide">
   <section>
     <p class="logo-text text-white"><a href="./index.html"></a></p>
@@ -49,7 +51,7 @@
         <a class="project-link" href="https://www.medstarhealth.org/community-health-2017/"> launch site  </a>
       </div>
     </div>
-    <div class="project-image-tile"> <img src="images/Medstar Report to Community/RTC-02.jpg" alt="Design Review" width="100%"> </div>
+    <div class="project-image-tile"> <img src="images/Medstar Report to Community/RTC-02.jpg" alt="Design Review" width="100%"> </div> 
     <div class="project-detail-blurb">
       <p class="blurb-text">Because there was little budget and time available, we utilized existing styles and common features our developer was already familiar with. To further expedite development digital decided that because only minor updates would be made once live, no CMS would be needed. <br>
         <br>

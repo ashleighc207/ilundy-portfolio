@@ -160,17 +160,17 @@ main {
 
 .project-one-third {
   width: 33%;
-  height: 398px;
+  height: 500px;
 }
 
 .project-two-thirds {
   width: 66%;
-  height: 398px;
+  height: 500px;
 }
 
 .project-three-thirds {
   width: 100%;
-  height: 398px;
+  height: 500px;
 }
 
 .project-title {
@@ -230,12 +230,12 @@ main {
 }
 
 #dashboard {
-  background: url('images/ACGI Dashboard/Dashboard-07.gif') center center no-repeat;
+  background: url('images/ACGI Dashboard/Dashboard-thumb.gif') center center no-repeat;
   background-size: cover;
 }
 
 #community {
-  background: url('images/Medstar Report to Community/RTC-01.jpg') center center no-repeat;
+  background: url('images/Medstar Report to Community/RTC-07.jpg') center center no-repeat;
   background-size: cover;
 }
 
@@ -244,7 +244,7 @@ main {
   background-size: cover;
 }
 #design-system {
-  background: url('images/ACGI Design System/Design-System-03.jpg') center center no-repeat;
+  background: url('images/ACGI Design System/Design-System-thumb.gif') center center no-repeat;
   background-size: cover;
 }
 #logos {
@@ -300,9 +300,10 @@ main {
 
 .project-image-tile {
   /*height: 800px;*/
-  width: calc(83.3% + 100px);
+  /*width: calc(83.3% + 100px);*/
+	width: 100%;
   /*background: #C4C4C4;*/
-  margin: 80px auto;
+  margin: 30px auto;
 }
 
 .project-image-tile:last-child {
@@ -316,13 +317,15 @@ main {
   font-size: 18px;
   line-height: 35px;
   color: #424242;
-  max-width: 770px;
-  margin: 0 auto;
+  max-width: 883px;
+  margin: 150px auto;
 }
 
 .project-details-content {
   margin: 0 auto;
-  max-width: 770px;
+margin-top: -75px;
+	margin-bottom:175px;
+  max-width: 883px;
 }
 
 .project-details-content .project-subtitle {
@@ -460,6 +463,7 @@ a[href^="mailto:"] {
 
 .slanted-overlay {
   mix-blend-mode: multiply;
+	opacity: .9;
 }
 
 .about-content {
@@ -484,7 +488,7 @@ a[href^="mailto:"] {
   font-size: 18px;
   line-height: 35px;
   color: #424242;
-  max-width: 770px;
+  max-width: 883px;
   margin: 0 auto;
 }
 
