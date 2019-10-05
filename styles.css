@@ -207,7 +207,7 @@ main {
   left: 0;
   z-index: 25;
 }
-.project-title, .horizontal-rule, .project-subtitle {
+.project .project-title, .project .horizontal-rule, .project .project-subtitle {
   margin-left: 40px;
   margin-right: 40px;
   opacity: 0;
