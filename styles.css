@@ -267,6 +267,42 @@ main {
   background: url('images/Town of Vienna/Logo-Build-No-Text-SML.gif') center center no-repeat;
   background-size: cover;
 }
+#cubs {
+  background: url('images/Logos/Logos_10.jpg') center center no-repeat;
+  background-size: cover;
+}
+#msi {
+  background: url('images/Logos/Logos_20.jpg') center center no-repeat;
+  background-size: cover;
+}
+#mojo {
+  background: url('images/Logos/Logos_04.jpg') center center no-repeat;
+  background-size: cover;
+}
+#bitcoin {
+  background: url('images/Logos/Logos_19.jpg') center center no-repeat;
+  background-size: cover;
+}
+#two-twenty-five {
+  background: url('images/Logos/Logos_18.jpg') center center no-repeat;
+  background-size: cover;
+}
+#underwood {
+  background: url('images/Logos/Logos_12.jpg') center center no-repeat;
+  background-size: cover;
+}
+#santa-fe {
+  background: url('images/Logos/Logos_06.jpg') center center no-repeat;
+  background-size: cover;
+}
+#annapolis {
+  background: url('images/Logos/Logos_17.jpg') center center no-repeat;
+  background-size: cover;
+}
+#butterfly {
+  background: url('images/Logos/Logos_08.jpg') center center no-repeat;
+  background-size: cover;
+}
 
 
 .no-hover .project:hover {
