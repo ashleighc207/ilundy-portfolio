@@ -21,6 +21,7 @@ a {
   color: inherit;
 }
 
+
 main {
   padding: 25px 50px;
 }
@@ -304,6 +305,29 @@ main {
   background-size: cover;
 }
 
+#process-animation{  background: url('images/Process/Placeholder-Illustration.gif') center center no-repeat;
+  background-size: cover;}
+
+#portrait{  background: url('images/Process/Portrait.jpg') center center no-repeat;
+  background-size: cover;}
+
+#doggo{  background: url('images/Process/Cheyenne.jpg') center center no-repeat;
+  background-size: cover;}
+
+#whiteboard{  background: url('images/Process/Whiteboard.jpg') center center no-repeat;
+  background-size: cover;}
+
+#desk{  background: url('images/Process/Desk.jpg') center center no-repeat;
+  background-size: cover;}
+
+#personas{  background: url('images/Process/Personas.jpg') center center no-repeat;
+  background-size: cover;}
+
+#matrix{  background: url('images/Process/Matrix.jpg') center center no-repeat;
+  background-size: cover;}
+
+#sketches{  background: url('images/Process/Sketches.jpg') center center no-repeat;
+  background-size: cover;}
 
 .no-hover .project:hover {
   background: #C4C4C4;
@@ -357,6 +381,7 @@ main {
   margin: 150px auto;
 }
 
+
 .project-details-content {
   margin: 0 auto;
 margin-top: -75px;
@@ -383,6 +408,15 @@ margin-top: -75px;
 }
 
 .project-link:hover {
+  color: #E7008C;
+}
+
+.body-link{
+text-decoration: underline;
+	cursor: pointer;
+}
+
+.body-link:hover {
   color: #E7008C;
 }
 
@@ -486,7 +520,7 @@ a[href^="mailto:"] {
   margin: -150px 0px;
   z-index: -1;
   background: #212121;
-  transform: skewY(-12deg);
+  transform: skewY(-8deg);
   transform-origin: 100%;
 }
 
